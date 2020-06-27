@@ -3,9 +3,6 @@
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
-//É preciso mudar! Costumer --> Customer 
-//No app.js também...
-
 const schema = new Schema({
     name: {
         type: String,
